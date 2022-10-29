@@ -4,7 +4,7 @@ const main_first = document.querySelector('#main_first');
 
 let main_firstHtml = generalmain_first.map((a) => {
     return `
-<div style="display:flex; padding-left: 50px; padding-top: 50px; padding-bottom: 50px;" class="body_1">
+<div style="display:flex; padding-bottom: 50px;" class="body_1">
     <div class="text">
         <h1 style="color: black" class="partners">${a.text}</h1>
         <p style="font-weight: 500; color: black" class="partners1">${a.text2}</p>
@@ -12,7 +12,7 @@ let main_firstHtml = generalmain_first.map((a) => {
             <a style="text-decoration: none; color: white;" href="#"> ${a.text3} </a>
         </button>
     </div>
-    <div style="border-radius: 50%; padding-left: 50px;" class="ipad">
+    <div style="border-radius: 50%; padding-left: 50px; background-color: rdb(78, 101, 115)" class="ipad">
         <img src="../../assets/img/apple.png">
     </div>
 </div>
@@ -47,7 +47,7 @@ let main_firstHtml = generalmain_first.map((a) => {
 </div>
 
 <div style="background-color:rgb(72, 110, 133)" class="main">
-    <img style="padding-left: 100px; " src="../../assets/img/main2.png">
+    <img src="../../assets/img/main2.png">
 </div>
 
 <div style="padding-top: 50px" class="about">
