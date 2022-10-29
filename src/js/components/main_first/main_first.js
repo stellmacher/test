@@ -7,9 +7,9 @@ let main_firstHtml = generalmain_first.map((a) => {
 <div style="display:flex; padding-left: 50px; padding-top: 50px; padding-bottom: 50px;" class="body_1">
     <div class="text">
         <h1 style="color: black" class="partners">${a.text}</h1>
-        <p style="color: black" class="partners1">${a.text2}</p>
-        <button style="background-color: rgb(61, 179, 158); border-radius: 25px; height: 50px; border-color: rgb(61, 179, 158);">
-            <a style="font-size: 40px;text-decoration: none;color: white;" href="#"> ${a.text3} </a>
+        <p style="font-weight: 500; color: black" class="partners1">${a.text2}</p>
+        <button style="background-color: rgb(61, 179, 158); border-radius: 25px; height: 50px; width: 100px; border-color: rgb(61, 179, 158);">
+            <a style="text-decoration: none; color: white;" href="#"> ${a.text3} </a>
         </button>
     </div>
     <div style="border-radius: 50%; padding-left: 50px;" class="ipad">
