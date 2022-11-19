@@ -4,11 +4,11 @@ const main_first = document.querySelector('#main_first');
 
 let main_firstHtml = generalmain_first.map((a) => {
     return `
-<div style="display:flex; padding-bottom: 50px;" class="body_1">
+<div style="display:flex; padding-bottom: 50px; background-image: url(https://phonoteka.org/uploads/posts/2021-05/1620149804_5-phonoteka_org-p-vektornii-fon-gorod-5.jpg)';" class="body_1">
     <div class="text">
         <h1 style="color: black" class="partners">${a.text}</h1>
         <p style="font-weight: 500; color: black" class="partners1">${a.text2}</p>
-        <button style="background-color: rgb(61, 179, 158); border-radius: 25px; height: 50px; width: 100px; border-color: rgb(61, 179, 158);">
+        <button style="background-color: rgb(61, 179, 158); border-radius: 25px; height: 50px; width: 100px; border: none; box-shadow: inset 0px -5px 0px 0px rgb(59, 147, 118)">
             <a style="text-decoration: none; color: white;" href="#"> ${a.text3} </a>
         </button>
     </div>
@@ -67,7 +67,7 @@ let main_firstHtml = generalmain_first.map((a) => {
 
                 <p style="font-weight: 1000; text-align: center;">${a.p_2_4}</p>
                 <div style="padding-left: 50px; background-color: white;" class="button">
-                    <button style="border-radius:25px;height: 50px; width: 300px; background-color: rgb(4, 147, 180); border-color: rgb(4, 132, 172);"><a href="#">${a.text3}</a></button>
+                    <button style="border-radius:25px;height: 50px; width: 300px; background-color: rgb(4, 147, 180); border: none; box-shadow: inset 0px -5px 0px 0px rgb(4, 132, 172)"><a href="#">${a.text3}</a></button>
                 </div>
                 
             </div>
