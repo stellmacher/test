@@ -7,7 +7,7 @@ let main_firstHtml = generalmain_first.map((a) => {
 <div class = "Coddy_city" style="display:flex; padding-bottom: 500px; padding-left: 150px" class="body_1">
     <div class="text">
         <h1 style="color: white" class="partners">${a.text}</h1>
-        <p style="font-weight: 500; color: white" class="partners1">${a.text2}</p>
+        <p style="font-weight: 500; color: white; padding-bottom: 20px" class="partners1">${a.text2}</p>
         <button style="background-color: rgb(61, 179, 158); border-radius: 25px; height: 50px; width: 100px; border: none; box-shadow: inset 0px -5px 0px 0px rgb(59, 147, 118)">
             <a style="text-decoration: none; color: white;" href="#"> ${a.text3} </a>
         </button>
