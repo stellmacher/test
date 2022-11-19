@@ -4,7 +4,7 @@ const main_first = document.querySelector('#main_first');
 
 let main_firstHtml = generalmain_first.map((a) => {
     return `
-<div style="display:flex; padding-bottom: 50px; background-image: url(https://phonoteka.org/uploads/posts/2021-05/1620149804_5-phonoteka_org-p-vektornii-fon-gorod-5.jpg)';" class="body_1">
+<div class = "Coddy_city" style="display:flex; padding-bottom: 500px;" class="body_1">
     <div class="text">
         <h1 style="color: black" class="partners">${a.text}</h1>
         <p style="font-weight: 500; color: black" class="partners1">${a.text2}</p>
@@ -20,25 +20,25 @@ let main_firstHtml = generalmain_first.map((a) => {
 <div class="container">
     <div class="row">
         <div class="col-md-3">
-            <img style="padding-left:50px; padding-bottom: 10px" src="../../assets/img/square2.png">
+            
             <h1 style="font-size: 25px;
                        padding-left: 20px;">${a.h1_1_1}</h1>
             <p style="text-align: center;" >${a.p_1_1}</p>
         </div>
         <div class="col-md-3">
-            <img style="padding-left:50px; padding-bottom: 10px; padding-top: 10px" src="../../assets/img/astronaft.png">
+            
             <h1 style="font-size: 25px;
                         text-align: center;">${a.h1_1_2}</h1>
             <p style="text-align: center;">${a.p_1_2}</p>
         </div>
         <div class="col-md-3">
-            <img style="padding-left:50px; padding-bottom: 10px; padding-top: 10px" src="../../assets/img/moon_rover.png">
+            
             <h1 style="font-size: 25px;
                         text-align: center;">${a.h1_1_3}</h1>
             <p style="text-align: center;">${a.p_1_3}</p>
         </div>
         <div class="col-md-3">
-            <img style="padding-left:50px; padding-bottom: 10px; padding-top: 10px" src="../../assets/img/astronaft2.png">
+            
             <h1 style="font-size: 25px;
                         text-align: center;">${a.h1_1_4}</h1>
             <p style="text-align: center;">${a.p_1_4}</p>
